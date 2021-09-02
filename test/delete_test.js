@@ -10,7 +10,7 @@ describe('Deleting records', function() {
     });
 
     char.save().then(function() {
-      asser(char.isNew === false);
+      assert(char.isNew === false);
       done();
     });
   });
